@@ -17,7 +17,7 @@ Site made with JavaScrip:
 
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://zkr024.github.io/Awesome-Books/)
 
 ## Getting Started
 
