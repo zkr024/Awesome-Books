@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+}
+
+/* Header section */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+body section,
+body header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
+  border: 2px solid #000;
+  padding: 0 10px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links li,
+.logo {
+  padding: 6px;
+  margin: 3px 0;
+}
+
+.addNew {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.links li:hover {
+  color: #218bff;
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
+.date {
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* Book-list section */
+
+#bookList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#bookList h1 {
+  margin-bottom: 30px;
+}
+
+.container {
+  border: 2px solid #000;
+  width: 66%;
+}
+
+#books {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 8px;
+}
+
+.bTitle {
+  width: 150px;
+}
+
+.by {
+  width: 20px;
+}
+
+.delete {
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+  padding: 3px 5px;
+  background: #fff;
+  box-shadow: 2px 2px;
+}
+
+/* Form section - Add book */
+
+#form,
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.contact h2,
+#form h2 {
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 40%;
+}
+
+.input input {
+  margin: 5px;
+  width: 100%;
+  padding: 3px 5px;
+  background: #fff;
+  box-shadow: 2px 2px;
+}
+
+#submit {
+  align-self: flex-end;
+  width: 50px;
+}
+
+.delete:hover,
+#submit:hover {
+  color: #218bff;
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
+.newColor {
+  background: #ddd;
+}
+
+/* Contact section */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact p {
+  width: 550px;
+}
+
+.cInfo {
+  margin: 10px;
+}
+
+/* Footer section */
+
+footer {
+  width: 100%;
+}
+
+body footer {
+  width: 100%;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 10px;
+  border: 2px solid #000;
+  padding: 5px 15px;
+}
+
+/* Class to hide sections */
+
+.hidden {
+  display: none !important;
+}
